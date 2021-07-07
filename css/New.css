@@ -1,0 +1,21 @@
+#Inline Block{
+    background-color: darkorange;
+    color: whitesmoke;
+    float:right;
+
+}
+span{
+    
+    background-color: khaki;
+    color:firebrick;
+    border-radius: 5px;
+}
+h1{
+    background-color: aqua;
+    
+}
+
+h2{
+    color:white;
+    
+}

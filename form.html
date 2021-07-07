@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+
+<body>
+    <form action="Registration page" action="login.html" target="_self" method="POST">
+
+        <label for="Username">Username</label>
+        <input type="text" id="Username" name="user name" placeholder="Enter your Name" required><br><br>
+        <label for="Gmail">Gmail</label>
+        <input type="text" id="Gmail" name="Gmail" placeholder="Enter your mail" required><br><br>
+        <label for="Passwword">Password</label>
+        <input type="password" id="Password" name="Password" placeholder="Enter Password"
+            title="must contain one number" required><br><br>
+        <label for="Phonenumber">Phonenumber</label>
+        <input type="phone" id="Phonenumber" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            placeholder="Enter your Moblie number" title="10 digits only" required><br><br>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="Female" name="gender" value="Female">
+        <label for="Female">Female</label><br><br>
+        <label>Location:</label>
+        <input type="checkbox" id="Hyderabad" name="checkbox" value="Hyderabad">
+        <label for="Location">Hyderabad</label>
+        <input type="checkbox" id="Vizag" name="checkbox" value="Vizag">
+        <label for="Location">Vizag</label>
+        <input type="checkbox" id="Vijaywada" name="checkbox" value="Vijaywada">
+        <label for="Location">Vijaywada</label><br><br>
+        <label for="Job description">Job description:</label>
+        <textarea id="Job description" name="Job description" rows="5" cols="50"></textarea><br><br>
+        <input type="button" name="Submit" value="Submit">
+    </form>
+</body>
+
+</html>
